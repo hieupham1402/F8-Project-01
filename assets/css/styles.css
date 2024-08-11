@@ -573,9 +573,15 @@ a {
     white-space: normal;
     line-height: 1.75;
 }
-.footer .social .social-link {
-    margin-top: 40px;
+/* .footer .column .social-link {
+    margin-top: 50px;
     width: 28px;
+    height: 28px;
+} */
+
+.footer .social .social-link img {
+    margin-top: 50px;
+    width: 117px;
     height: 28px;
 }
 
