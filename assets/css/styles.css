@@ -49,16 +49,26 @@ a {
 }
 
 /*================= Header =================*/
-.header {
+.fixed-header {
+    position: sticky;
+    background: #c5e7fd;
+    padding-top: 26px;
+    top: -26px;
+    z-index: 1;
+}
+.hero-wrap {
     position: relative;
-    background: #e6f0ff;
+    display: flex;
+    flex-direction: column;
+    background: #c5e7fd;
     height: 100vh;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    /* padding-top: 38px; */
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -96,7 +106,7 @@ a {
 /*================= Hero =================*/
 .hero {
     margin-top: 130px;
-    background: #fff;
+    background: #c5e7fd;
 }
 
 .hero .info {
@@ -573,11 +583,6 @@ a {
     white-space: normal;
     line-height: 1.75;
 }
-/* .footer .column .social-link {
-    margin-top: 50px;
-    width: 28px;
-    height: 28px;
-} */
 
 .footer .social .social-link img {
     margin-top: 50px;
